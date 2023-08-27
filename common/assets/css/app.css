@@ -1,0 +1,7 @@
+@import './utilities/tailwind.css';
+
+@import './base/base.css';
+
+/* Vendor */
+@import 'primevue/resources/themes/lara-light-blue/theme.css';
+@import './vendor/prime-vue/button.css';

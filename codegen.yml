@@ -1,0 +1,8 @@
+schema: https://rickandmortyapi.com/graphql
+generates:
+  common/types/graphql/graphql.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+    config:
+      declarationKind: 'interface'
